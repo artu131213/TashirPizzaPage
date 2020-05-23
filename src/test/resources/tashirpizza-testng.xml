@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tashirpizza Suite">
+	<test name="My First Test Example">
+
+		<parameter name="emailid" value="tester456@gmail.com" />
+		<parameter name="password" value="test@123" />
+
+    	<classes>
+		
+			<class name="am.itu.qa.add.AddTest" />
+			<class name="am.itu.qa.sushi.MenuSushiTest" />
+			<class name="am.itu.qa.checkout.CheckoutTest" />
+			<class name="am.itu.qa.pizzerias.PizzeriasTest" />
+		    <class name="am.itu.qa.pizzerias.PizzeriassTest" />
+			<class name="am.itu.qa.language.LanguageFirstTest" /> 
+			<class name="am.itu.qa.contacts.ContactsFirstTest" />
+			<class name="am.itu.qa.tashirpizza.dishes.MenuDishesTest" />
+			<class name="am.itu.qa.tashirpizza.drinks.MenuDrinksTest" />
+
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
