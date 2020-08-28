@@ -9,14 +9,14 @@
     	<classes>
 		
 			<class name="am.itu.qa.add.AddTest" />
-			<class name="am.itu.qa.sushi.MenuSushiTest" />
-			<class name="am.itu.qa.checkout.CheckoutTest" />
+		  	<class name="am.itu.qa.sushi.MenuSushiTest" />
+		    <class name="am.itu.qa.checkout.CheckoutTest" />
 			<class name="am.itu.qa.pizzerias.PizzeriasTest" />
 		    <class name="am.itu.qa.pizzerias.PizzeriassTest" />
 			<class name="am.itu.qa.language.LanguageFirstTest" /> 
 			<class name="am.itu.qa.contacts.ContactsFirstTest" />
-			<class name="am.itu.qa.tashirpizza.dishes.MenuDishesTest" />
-			<class name="am.itu.qa.tashirpizza.drinks.MenuDrinksTest" />
+			<class name="am.itu.qa.tashirpizza.dishes.MenuDishesTest" /> 
+			<class name="am.itu.qa.tashirpizza.drinks.MenuDrinksTest" /> 
 
 		</classes>
 
